@@ -1,0 +1,52 @@
+.expense-list {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+}
+
+.expense {
+      width: 100%;
+      margin: 4px 0;
+      padding: 20px 12px;
+      
+      border-radius: var(--border-radius);
+
+      background: rgb(255, 255, 255);
+      /* box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px; */
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      color: rgb(0, 0, 0);
+
+      transition: background 0.1s ease;
+
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+}
+
+.expense__title {
+      margin-bottom: 0;
+}
+
+
+
+.info * {
+      margin: 0 5px;
+}
+
+.expense__cost {
+      padding: 6px 8px;
+      border-radius: var(--border-radius);
+
+      background: rgb(0, 0, 0);
+      color: #fff;
+}
+
+.delete {
+      padding: 6px 8px;
+      border-radius: var(--border-radius);
+
+      background: rgb(235, 31, 31);
+      color: #fff;
+      cursor: pointer;
+}

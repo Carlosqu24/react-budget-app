@@ -1,0 +1,45 @@
+.balance-budget {
+      width: 100%;
+      margin: 20px auto;
+      margin-bottom: 60px;
+      padding: 1rem;
+      border-radius: var(--border-radius);
+
+      background: #fff;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+      
+      color: #000;
+
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+}
+
+.balance-budget-container {
+      padding: 1rem;
+
+      /* background: #000; */
+}
+
+.balance-budget-container__title {
+      font-size: 16px;
+      font-weight: 300;
+}
+
+.total-budget__title,
+.total-expenses__title {
+      font-size: 16px;
+      font-weight: 300;
+}
+
+
+.total-remaining {
+      font-size: 70px;
+      font-weight: bold;
+}
+
+.total-budget__amount,
+.total-expenses__amount {
+      font-size: 40px;
+      font-weight: bold;
+}

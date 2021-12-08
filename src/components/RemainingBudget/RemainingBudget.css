@@ -1,0 +1,6 @@
+.remaining-budget {
+      padding: 8px;
+
+      background: var(--bg-budget);
+      color: #fff;
+}

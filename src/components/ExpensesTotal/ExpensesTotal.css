@@ -1,0 +1,6 @@
+.expenses-total {
+      padding: 8px;
+
+      background: var(--bg-budget);
+      color: #fff;
+}
