@@ -34,8 +34,8 @@ export const ExpenseForm = () => {
                   className="form"
                   onSubmit={(e) => handleSubmit(e)}
             >
-                  <div className="row d-flex flex-column justify-content-between">
-                        <div className="col-sm col-lg-4">
+                  <div className="d-flex flex-column justify-content-between">
+                        <div className="mb-2 col-sm col-lg-12">
                               <label htmlFor="name">Name</label>
                               <input 
                                     type="text"
@@ -44,7 +44,7 @@ export const ExpenseForm = () => {
                                     onChange={handleChange} 
                               />
                         </div>
-                        <div className="col-sm col-lg-4">
+                        <div className="mb-2 col-sm col-lg-12">
                               <label htmlFor="cost">Cost</label>
                               <input 
                                     type="text" 

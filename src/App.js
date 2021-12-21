@@ -13,6 +13,7 @@ import { ExpenseList } from './components/ExpenseList';
 import { ExpensesTotal } from './components/ExpensesTotal';
 import { RemainingBudget } from './components/RemainingBudget';
 import { BalanceBudget } from './components/BalanceBudget';
+import { ActionsTab } from './components/ActionsTab';
 
 function App() {
   return (
@@ -21,40 +22,15 @@ function App() {
 
         <div className="container">
           <BalanceBudget />
-          <ExpenseList />
-          <ExpenseForm />
+          {/* <ExpenseList />
+          <ExpenseForm /> */}
+
+          <ActionsTab />
         </div>
         
 
 
-        <div className="container">
-          {/* <h2>My Budget Planner</h2>
-          <div className="row py-4">
-              <div className="col-sm">
-                  <Budget />
-              </div>
-
-              <div className="col-sm">
-                  <ExpensesTotal />
-              </div>
-
-              <div className="col-sm">
-                  <RemainingBudget />
-              </div>
-          </div> */}
-          {/* <h2>Expenses</h2>
-          <div className="row py-4">
-            <div className="col-sm">
-              
-            </div>
-          </div>
-          <h2>Add Expense</h2>
-          <div className="row py-4">
-            <div className="col-sm">
-              <ExpenseForm />
-            </div>
-          </div> */}
-        </div>
+        
       </div>
     </AppProvider>
   );

@@ -2,12 +2,8 @@
     height: auto;
     min-height: 100vh;
     width: 100%;
+    position: absolute;
 
     background: var(--bg-app);
     color: #fff;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
