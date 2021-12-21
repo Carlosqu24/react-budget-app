@@ -4,6 +4,8 @@ import { v4 as uuidv4 } from 'uuid';
 
 import { AppContext } from '../../context/AppContext'
 
+import "./ExpenseForm.css"
+
 export const ExpenseForm = () => {
       const [expenseForm, setExpenseForm] = useState({});
 
