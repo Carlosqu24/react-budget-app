@@ -1,17 +1,12 @@
 import React from 'react'
 
-
+// STYLES
 import './App.css';
 
-
+// CONTEXT
 import { AppProvider } from './context/AppContext';
 
 // COMPONENTS
-import { Budget } from './components/Budget';
-import { ExpenseForm } from './components/ExpenseForm';
-import { ExpenseList } from './components/ExpenseList';
-import { ExpensesTotal } from './components/ExpensesTotal';
-import { RemainingBudget } from './components/RemainingBudget';
 import { BalanceBudget } from './components/BalanceBudget';
 import { ActionsTab } from './components/ActionsTab';
 
@@ -19,18 +14,10 @@ function App() {
   return (
     <AppProvider>
       <div className="App">
-
         <div className="container">
           <BalanceBudget />
-          {/* <ExpenseList />
-          <ExpenseForm /> */}
-
           <ActionsTab />
-        </div>
-        
-
-
-        
+        </div>        
       </div>
     </AppProvider>
   );

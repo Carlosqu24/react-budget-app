@@ -60,7 +60,7 @@ export const ExpenseForm = () => {
                               <div className="col-sm">
                                     <button
                                           type="submit" 
-                                          className="btn btn-primary"
+                                          className="btn btn-save-expnse"
                                     >
                                           Save
                                     </button>

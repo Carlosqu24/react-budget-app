@@ -1,5 +1,29 @@
 form {
-      background: #fff;
       padding: 12px;
       border-radius: var(--border-radius);
+
+      background: var(--purple);
+      /* font-size: 18px; */
+}
+
+.form-control {
+      border: none;
+
+      background: var(--dark-purple);
+      color: #fff;
+}
+
+.form-control:focus {
+      background: var(--purple);
+      color: #fff;
+}
+
+.btn-save-expnse {
+      background: var(--light-purple);
+      color: #fff;
+}
+
+.btn-save-expnse:hover {
+      background: var(--very-light-purple);
+      color: #fff;
 }

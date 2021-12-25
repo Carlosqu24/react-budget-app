@@ -3,6 +3,7 @@ import React, { useContext } from 'react'
 import './ExpenseList.css';
 
 import { AppContext } from "../../context/AppContext"
+import { ExpenseItem } from '../ExpenseItem';
 
 export const ExpenseList = () => {
 
@@ -14,21 +15,12 @@ export const ExpenseList = () => {
             <div className="expense-list">
                   {
                         expenses.map(({ cost, id, name }) => (
-                              <div className="expense" key={id}>
-                                    <h5 className="expense__title">{name}</h5>
-                                    <div className="info">
-                                          <span 
-                                                className="expense__cost"
-                                          >${cost}</span>
-
-                                          <span
-                                                className="delete"
-                                                onClick={() => handleClick(id)}
-                                          >
-                                                Delete
-                                          </span>
-                                    </div>
-                              </div>
+                              <ExpenseItem
+                                    id={id}
+                                    cost={cost}
+                                    name={name}
+                                    handleClick={handleClick}
+                              />
                         ))
                   }
             </div>

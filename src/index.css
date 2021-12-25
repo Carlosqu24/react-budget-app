@@ -3,18 +3,31 @@
     --border-radius: 8px;
 
     /* COLORS */
-    --bg-app: rgb(240, 240, 240);
+    --white: rgb(240, 240, 240);
     
-    --bg-expense-item: rgb(21, 30, 56);
+    --dark-gray: rgb(17, 17, 17);
+    --gray: rgb(36, 36, 36);
+    --light-gray: rgb(56, 56, 56);
 
-    --bg-budget: rgb(21, 30, 56);
+    --dark-blue: #000;
+    --blue: #000;
+    --light-blue: #000;
+
+    --very-dark-purple: rgb(28, 19, 34);
+    --dark-purple: rgb(38, 26, 46);
+    --purple: rgb(51, 35, 61);
+    --light-purple: rgb(70, 49, 83);
+    --very-light-purple: rgb(92, 64, 109);
+
+    /* FONTS */
+    --primary-font: 'Poppins', sans-serif;
 } 
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: #000;
 
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--primary-font);
+    font-weight: 300;
 }
