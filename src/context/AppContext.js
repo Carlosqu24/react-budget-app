@@ -54,6 +54,7 @@ export const AppProvider = ({ children }) => {
 
       const value = {
             budget: state.budget,
+            setBudget,
             expenses: state.expenses,
             addExpense,
             deleteExpense
