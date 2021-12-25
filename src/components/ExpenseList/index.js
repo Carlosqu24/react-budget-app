@@ -16,6 +16,7 @@ export const ExpenseList = () => {
                   {
                         expenses.map(({ cost, id, name }) => (
                               <ExpenseItem
+                                    key={id}
                                     id={id}
                                     cost={cost}
                                     name={name}
