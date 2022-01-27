@@ -14,8 +14,9 @@ function App() {
   return (
     <AppProvider>
       <div className="App">
+        <h2>App</h2>
         <div className="container">
-          <BalanceBudget />
+          <BalanceBudget data-test-id='balance-budget' />
           <ActionsTab />
         </div>        
       </div>
